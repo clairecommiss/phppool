@@ -1,0 +1,170 @@
+input[type=text] {
+    padding:5px; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    float:right;
+}
+
+input[type=password]{
+    padding:5px; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    float:right;
+
+}
+
+input[type=submit]{
+    padding:5px 15px; 
+    background:rgb(255, 255, 255); 
+    border:2px solid #ccc;
+    cursor:pointer;
+    font-family: Geneva;
+    font-size:15px;
+    margin:15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.button{
+    padding:5px 15px; 
+    border:0 none;
+    border:2px solid #ccc;
+    cursor:pointer;
+    font-family: Geneva;
+    color:black;
+    font-size:15px;
+    margin:15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+a hover{
+  background:CCFFCC; 
+}
+
+body{
+  min-width:900px;
+  width:100%;
+  font-family: Geneva;
+}
+
+h1 {
+	font-size:200px;
+  font-family: 'Just Another Hand', cursive;
+	height:250px;
+  margin-bottom: 10px;
+	width:100%;
+  position:relative;
+  text-align:left;
+	background-image: url(./imagesdebase/banniere.jpg);
+  text-decoration:none;
+}
+
+h1 a{
+  color:rgb(37, 71, 4);
+}
+
+
+a{
+   text-decoration:none;
+   text-align:center;
+   color:white;
+}
+
+.colonneidleft {
+background-color:rgb(185, 221, 131);
+background-image: url(https://image.freepik.com/free-photo/clear-wood-background_1249-8.jpg);
+border-radius: 10px;
+float:left;
+width: 300px;
+height: 100%;
+margin-left:10px;
+margin-right:10px;
+color: #87711c;
+text-shadow: black ;
+}
+
+
+
+table {
+  position:flex;
+  top:6px;
+}
+.panier {
+  border: 1px solid black;
+  position:relative;
+  height: 2vw;
+  width: 30vw;
+  max-width:300px;
+  max-height:40px;
+  font-size:20px;
+  text-align: center;
+}
+
+.objets img{
+  width:210px;
+  height:220px;
+ 
+}
+
+.menu {
+  width: 1200px;
+  min-width:1000px;
+  padding: 0px 0px;
+  color: white;
+  font-family: 'Courier New';
+  font-size: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+.cat {
+  background-color: rgb(209, 191, 164);
+  font-variant: small-caps;
+  font-family: 'Thasadith', sans-serif;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 35px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  min-width: 150px;
+  width: 170px;
+  display:inline-block;
+  text-align:center;
+  margin:0px;
+  
+}
+.cat:hover{
+ background-color:336600;
+  z-index:100000;
+}
+
+.wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   grid-template-columns: 0fr 0fr 0fr;
+   min-width:1000px;
+   width: 900px;
+   position: absolute;
+   left: 320px;
+   top:330px;
+  
+}
+
+.objets {
+  margin:30px;
+  width: 200px;
+  height: 200px;
+  background-color:white;
+  text-align: center;
+  line-height: 10px;
+  font-family: Geneva;
+}
+
+.objets a{
+  color:black;
+  font-size: 30px;
+  font-family: 'Thasadith', sans-serif;
+  position:relative;
+
+}

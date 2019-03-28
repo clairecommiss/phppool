@@ -1,0 +1,108 @@
+body {
+font-family:arial;
+background-image: url("http://scd.rfi.fr/sites/filesrfi/imagecache/rfi_16x9_1024_578/sites/images.rfi.fr/files/aef_image/sunrise-1756274_0.jpg");
+background-size: 100%;
+}
+
+h1{
+  color:white;
+  text-align:center;
+  font-family:fantasy;
+  font-size: 30px;
+}
+
+.menu {
+  width:150px;
+  padding: 30px 30px;
+  color: white;
+  font-family: 'Courier New';
+  font-size: 20px;
+  text-align: center;
+ 
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.menu:hover{
+
+ background-color:#140A00;
+}
+
+ul > li {
+  float:left;
+  position:relative;
+  list-style: none;
+}
+
+ul:after{
+  content: "";
+  display:block;
+  clear:both;
+}
+
+
+.menu:hover .subitem{
+  display: block;
+  position:absolute;
+  width:100%;
+  
+}
+
+.style {
+  display:inline-block;
+  text-decoration:none;
+  padding:20px 30px;
+  color: #FFF;
+}
+
+ .subitem li:hover .subsub_item {
+  display: block;
+  position:absolute;
+  background-color: #077CCE;
+  padding-right:60px;
+  padding:0px;
+  margin-left: 210px;
+  margin-right: 180px;
+  margin-top: -58px;
+}
+
+.subitem{
+  display:none;
+  position:absolute;
+  background-color:#0F2862;
+  width:100%;
+  top:100%;
+  left:0px;
+  padding:0px;
+  font-size: 15px;
+}
+
+.subitem li:hover {
+  background-color: #007aac;
+  width:100%;
+}
+
+.subsub_item li:hover {
+  background-color: #88C3F4;
+  width:100%;
+}
+
+.subitem li{
+  border: 1px solid black;
+  width:99%;
+}
+
+.subsub_item {
+  display:none;
+  line-height: 40px;
+  font-family:fantasy;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.subsub_item li{
+  border: 1px solid black;
+  width: 170px;
+  text-align:center;
+}
+

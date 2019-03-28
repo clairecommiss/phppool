@@ -1,0 +1,58 @@
+.elem{
+border : 1px solid black;
+padding : 3px;
+font-family: Courier;
+font-size:2vw;
+text-align: center;
+line-height:1vw;
+min-width:3vw;
+max-width:3vw;
+}
+
+.hidden{
+	visibility:hidden;
+}
+.pink {
+background-color:LightCoral;
+}
+.kaki {
+background-color:Olive;
+}
+.yellow{
+background-color:Moccasin;
+}
+.grey{
+background-color:Silver;
+}
+.green{
+background-color:YellowGreen;
+}
+.blue{
+background-color:PowderBlue;
+}
+.coralraregaz{
+background-color:MistyRose;
+}
+.name {
+text-align:left;
+font-size:40%;
+line-height:3%;
+}
+.masse {
+text-align:right;
+font-size:30%;
+line-height:10%;
+}
+h1{
+text-align:center;
+font-family:impact;
+font-size:4vw;
+} 
+h2{
+text-align:center;
+font-size:3vw;
+font-family:arial;
+}
+table {
+width:80vw;
+}

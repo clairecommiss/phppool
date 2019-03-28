@@ -1,0 +1,31 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: initial;
+}
+html{
+    background-color: DarkTurquoise;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.index{
+    color: rgb(177, 12, 12);
+    font-size: 20px;
+}
+iframe{
+    background-color:white;
+}
